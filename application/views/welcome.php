@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>DR TIRA MANCHA</title>
+  <title>SINDOJUS</title>
 
   <!-- Bootstrap Core CSS -->
   <link href="<?= base_url('assets/css/bootstrap.min.css')?>" rel="stylesheet" type="text/css">
@@ -34,13 +34,13 @@
   <section id="intro" class="intro">
 
     <div class="slogan">
-      <h2>BEM VINDO</h2>
-      <h4>25 ANOS DE EXPERIÊNCIA NO MERCADO DE LIMPEZA E RESTAURAÇÃO DE TAPETES E ESTOFADOS</h4>
+      <h2 style="text-shadow: 0px 0px 6px #FFF;">SIND<font color="#8B0000">OJ</font>US</h2>
+      <h4>SINDICATO DOS OFICIAIS DE JUSTIÇA DO ESTADO ACRE</h4>
     </div>
     <div class="page-scroll">
-      <a href="#service" class="btn btn-circle">
-				<i class="fa fa-angle-double-down animated"></i>
-			</a>
+        <a href="<?= base_url(); ?>" class="btn btn-circle" title="Veja mais">
+                <i class="fa fa-plus animated"></i>
+        </a>
     </div>
   </section>
   <!-- /Section: intro -->
@@ -53,7 +53,7 @@
           <div class="col-lg-8 col-lg-offset-2">
             <div class="wow bounceInDown" data-wow-delay="0.4s">
               <div class="section-heading">
-                <h2>Sobre nós</h2>
+                <h2>Sobre o SINDOJUS</h2>
                 <i class="fa fa-2x fa-angle-down"></i>
 
               </div>
@@ -70,23 +70,24 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-12">
           <div class="wow fadeInLeft" data-wow-delay="0.2s">
             <div class="service-box">
               <div class="service-desc">
-                <h5>A importância de tapetes limpos</h5>
-                <p>Os tapetes garantem estilo e elegância e tornam sua sala ou quarto muito mais aconchegantes e bonitos. Podem revelar bom gosto e ótima percepção, pois o tapete ideal deve combinar com todo o ambiente. Além de precisarem estar de acordo com seu gosto, para trazer ainda mais conforte e fazer com que você se sinta realmente em casa.</p>
-                <p>Manter os tapetes limpos não é interessante apenas pelo aspecto visual, mas também por de ficar livre de poeira, ácaros, fungos e resíduos, além de que a limpeza realizada regularmente aumenta sua vida útil.</p>
+                <h5>Breve história</h5>
+                <p>Em 22 de Abril de 1500 nascia, no litoral sul do atual estado da Bahia, a nossa nação querida. Inicialmente conhecida como Ilha de Vera Cruz, só passou a ser chamada de Brasil em 1527, graças à abundância de uma árvore muito utilizada pelos colonizadores chamada pau-brasil.</p>
+                <p>Após mais de 300 anos como uma colônia portuguesa, em 1822 o Brasil iniciava sua independência, com o famoso grito do ipiranga dado por Dom Pedro no dia 7 de Setembro.</p>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-12">
           <div class="wow fadeInUp" data-wow-delay="0.2s">
             <div class="service-box">
               <div class="service-desc">
-                <h5>Dr. Tira Manchas</h5>
-                <p>Com 25 anos de experiência no mercado, a Dr. Tira Manchas oferece opções de limpeza a úmido e a seco de tapetes, carpetes e estofados, restauração de tapetes, impermeabilização e muito mais, oferecendo serviços da melhor qualidade e com agilidade e segurança.</p>
+                <h5>Lutas e Conquistas</h5>
+                <p>No Brasil atual o que não faltam são motivos para lutar, pois os problemas que assolam a população são diversos. Falta de segurança, educação de má qualidade, saúde precária, corrupção e cultura desestruturada são alguns dos problemas com os quais os brasileiros têm de lidar diariamente.</p>
+                <p>Algumas conquistas estão sendo possíveis graças ao esforço de algumas pessoas que estão levando conhecimento pra a grande massa. Essa mudança têm feito com que movimentos sejam feitos no intúito de limpar toda a sujeira que temos institucionalizada no nosso país. Um dos efeitos mais emblemáticos disso é a prisão do ex-presidente Lula.</p>
               </div>
             </div>
           </div>
@@ -106,7 +107,7 @@
           <div class="col-lg-8 col-lg-offset-2">
             <div class="wow bounceInDown" data-wow-delay="0.4s">
               <div class="section-heading">
-                <h2>Nossos serviços</h2>
+                <h2>PARCEIROS</h2>
                 <i class="fa fa-2x fa-angle-down"></i>
 
               </div>
@@ -115,72 +116,57 @@
         </div>
       </div>
     </div>
-      <div class="container">
+    <div class="container">
+
       <div class="row">
         <div class="col-lg-2 col-lg-offset-5">
           <hr class="marginbot-50">
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4">
-          <div class="wow fadeInLeft" data-wow-delay="0.2s">
-            <div class="service-box">
-              <div class="service-desc">
-                <h5>Lavagem de estofados</h5>
-                <p>Vestibulum tincidunt enim in pharetra malesuada. Duis semper magna metus electram accommodare.</p>
+        <div class="col-md-3">
+          <div class="wow bounceInUp" data-wow-delay="0.5s">
+            <div class="team boxed-grey">
+              <div class="inner">
+                <h5>TJAC</h5>
+                <p class="subtitle">Tribunal de Justiça do Estado do Acre</p>
+                <div class="avatar"><img src="assets/img/team/brasao.jpg" alt="" class="img-responsive img-circle" /></div>
+
               </div>
             </div>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="wow fadeInUp" data-wow-delay="0.2s">
-            <div class="service-box">
-              <div class="service-desc">
-                <h5>Lavagem de tapetes</h5>
-                <p>Vestibulum tincidunt enim in pharetra malesuada. Duis semper magna metus electram accommodare.</p>
+        <div class="col-md-3">
+          <div class="wow bounceInUp" data-wow-delay="0.2s">
+            <div class="team boxed-grey">
+              <div class="inner">
+                <h5>FOJEBRA</h5>
+                <p class="subtitle">Federação dos Oficiais de Justiça Estaduais do Brasil</p>
+                <div class="avatar"><img src="assets/img/team/fojebra.jpg" alt="" class="img-responsive img-circle" /></div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="wow fadeInUp" data-wow-delay="0.2s">
-            <div class="service-box">
-              <div class="service-desc">
-                <h5>Lavagem de carpetes</h5>
-                <p>Vestibulum tincidunt enim in pharetra malesuada. Duis semper magna metus electram accommodare.</p>
+        <div class="col-md-3">
+          <div class="wow bounceInUp" data-wow-delay="0.8s">
+            <div class="team boxed-grey">
+              <div class="inner">
+                <h5>Jack Briane</h5>
+                <p class="subtitle">jQuery Ninja</p>
+                <div class="avatar"><img src="assets/img/team/logo1.jpg" alt="" class="img-responsive img-circle" /></div>
+
               </div>
             </div>
           </div>
         </div>
-      </div>
-        <hr />
-        <div class="row">
-        <div class="col-md-4">
-          <div class="wow fadeInLeft" data-wow-delay="0.2s">
-            <div class="service-box">
-              <div class="service-desc">
-                <h5>Impermeabilização</h5>
-                <p>Vestibulum tincidunt enim in pharetra malesuada. Duis semper magna metus electram accommodare.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="wow fadeInUp" data-wow-delay="0.2s">
-            <div class="service-box">
-              <div class="service-desc">
-                <h5>Restauração de tapetes</h5>
-                <p>Vestibulum tincidunt enim in pharetra malesuada. Duis semper magna metus electram accommodare.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="wow fadeInUp" data-wow-delay="0.2s">
-            <div class="service-box">
-              <div class="service-desc">
-                <h5>Serviço de Leva e Traz</h5>
-                <p>Vestibulum tincidunt enim in pharetra malesuada. Duis semper magna metus electram accommodare.</p>
+        <div class="col-md-3">
+          <div class="wow bounceInUp" data-wow-delay="1s">
+            <div class="team boxed-grey">
+              <div class="inner">
+                <h5>Tom Petterson</h5>
+                <p class="subtitle">Typographer</p>
+                <div class="avatar"><img src="assets/img/team/logo2.jpg" alt="" class="img-responsive img-circle" /></div>
+
               </div>
             </div>
           </div>
@@ -188,6 +174,7 @@
       </div>
     </div>
   </section>
+
   <!-- /Section: services -->
 
 
@@ -251,7 +238,7 @@
                   <div class="form-group">
                     <label for="name">
                                 Mensagem</label>
-                    <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Escreva algo para nós!" placeholder="Escreva algo para nós!"></textarea>
+                      <textarea class="form-control" name="message" rows="8"  data-rule="required" data-msg="Escreva algo para nós!" placeholder="Escreva algo para nós!" style="resize: none;"></textarea>
                     <div class="validation"></div>
                   </div>
                 </div>
@@ -269,20 +256,18 @@
             <h5>Endereço</h5>
 
             <address>
-				  <strong>Dr. Tira Mancha</strong><br>
-				  Rua Raul Pompéia, 854 - Pompéia<br>
-				  São Paulo, SP CEP: 05025-010<br>
-				  <abbr title="Telefone">Tel:</abbr> (11) 2688-7191
-				</address>
+                <strong>SINDOJUS</strong><br>
+                Rua Paulo Lemos de Moura Leite, nº 878. Portal da Amazônia<br>
+                Rio Branco, AC CEP: 69915-777<br>
+                <abbr title="Telefone">Tel:</abbr> (68) 0000-0000
+            </address>
             <address>
-				  <strong>Estamos nas redes sociais</strong><br>
-                       	<ul class="company-social">
-                            <li class="social-facebook"><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                            <li class="social-twitter"><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                            <li class="social-dribble"><a href="#" target="_blank"><i class="fa fa-dribbble"></i></a></li>
-                            <li class="social-google"><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
-                        </ul>
-				</address>
+                <strong>Nos acompanhe nas redes sociais</strong><br>
+                <ul class="company-social">
+                    <li class="social-facebook"><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    <li class="social-twitter"><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                </ul>
+            </address>
 
           </div>
         </div>

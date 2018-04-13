@@ -48,10 +48,24 @@
         <ul class="nav navbar-nav">
           <li><a href="#intro">INÍCIO</a></li>
           <li><a href="#about">SOBRE</a></li>
-          <li><a href="#service">PARCEIROS</a></li>
+          <li><a href="#service">SERVIÇOS</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">MAIS <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Lavagem de Estofados</a></li>
+              <li><a href="#">Lavagem de Tapetes</a></li>
+              <li><a href="#">Lavagem de Carpetes</a></li>
+              <li><a href="#">Impermeabilização</a></li>
+              <li><a href="#">Restauração de Tapetes</a></li>
+              <li><a href="#">Lavanderia</a></li>
+              <li><a href="#">Atendimento</a></li>
+              <li><a href="#">Cadastro</a></li>
+              <li><a href="#">Franquia</a></li>
+              <li><a href="#">Galeria</a></li>
+              <li><a href="#">Prêmios</a></li>
+            </ul>
+          </li>
           <li><a href="#contact">CONTATO</a></li>
-          <li><a href="#">MAIS</a></li>
-          <li><a href="#">FILIE-SE</a></li>
         </ul>
       </div>
       <!-- /.navbar-collapse -->

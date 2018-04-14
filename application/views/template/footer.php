@@ -7,8 +7,6 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>DR TIRA MANCHA</title>
-
   <!-- Bootstrap Core CSS -->
   <link href="<?= base_url('assets/css/bootstrap.min.css')?>" rel="stylesheet" type="text/css">
 
@@ -41,7 +39,7 @@
 						</a>
             </div>
           </div>
-          <p>&copy;SquadFREE. Todos os direitos reservados.</p>
+          <p>&copy;SINDOJUS-AC 2018. Todos os direitos reservados.</p>
           <div class="credits">
             <!--
               All the links in the footer should remain intact. 
@@ -49,7 +47,7 @@
               Licensing information: https://bootstrapmade.com/license/
               Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Squadfree
             -->
-            <a href="https://bootstrapmade.com/bootstrap-one-page-templates/">Bootstrap One Page Templates</a> by BootstrapMade
+            <a href="https://bootstrapmade.com/bootstrap-one-page-templates/">Bootstrap One Page Templates</a> por BootstrapMade
           </div>
         </div>
       </div>

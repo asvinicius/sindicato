@@ -52,6 +52,7 @@
           <li><a href="#contact">CONTATO</a></li>
           <li><a href="#">MAIS</a></li>
           <li><a href="#">FILIE-SE</a></li>
+          <li><a href="#">ENTRAR</a></li>
         </ul>
       </div>
       <!-- /.navbar-collapse -->

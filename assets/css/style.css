@@ -13,7 +13,7 @@ body {
     width: 100%;
     height: 100%;
     font-family: 'Lato',sans-serif;
-	font-weight: 300;
+    font-weight: 300;
     color: #666;
     background-color: #fff;
 }
@@ -81,7 +81,7 @@ a:focus {
 }
 
 .navbar-brand h1{
-	color: #fff;
+  color: #fff;
   font-size: 20px;
   line-height: 40px;
   text-shadow: 0px 0px 3px #FFF;
@@ -92,7 +92,7 @@ a:focus {
 }
 
 .nav.navbar-nav {
-    background-color: rgba(255,255,255,.4);
+    background-color: rgba(0,0,0,0);
 }
 
 .navbar-custom.top-nav-collapse .nav.navbar-nav {
@@ -102,20 +102,20 @@ a:focus {
 .navbar-custom ul.nav li a {
 	font-size: 12px;
 	letter-spacing: 1px;
-    color: #444;
+        color: #fff;
 	text-transform: uppercase;
 	font-weight: 700;
 }
 
 .navbar-custom.top-nav-collapse ul.nav li a {
-	    -webkit-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-	color: #fff;
+    color: #fff;
 }
 
 .navbar-custom ul.nav ul.dropdown-menu {
-	  border-radius: 0;
+    border-radius: 0;
 }
 
 .navbar-custom ul.nav ul.dropdown-menu li {
@@ -129,6 +129,7 @@ a:focus {
 
 .navbar-custom ul.nav ul.dropdown-menu li a {
 	padding: 10px 20px;
+	color: #666;
 }
 
 .navbar-custom ul.nav ul.dropdown-menu li a:hover {
@@ -774,13 +775,11 @@ Parallax
 @media(min-width:767px) {
 
     .navbar {
-        padding: 20px 0;
-        border-bottom: 0;
+        padding: 0;
+        background-color: #1C5A2B;
+        border-bottom: 1px solid rgba(255,255,255,.3);
         letter-spacing: 1px;
-        background: 0 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        background: 1 0;
     }
 
     .top-nav-collapse {

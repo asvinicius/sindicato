@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>SINDOJUS</title>
+  <title>SINDOJUS | Sindicato dos Oficiais de Justiça do Estado do Acre</title>
 
   <!-- Bootstrap Core CSS -->
   <link href="<?= base_url('assets/css/bootstrap.min.css')?>" rel="stylesheet" type="text/css">

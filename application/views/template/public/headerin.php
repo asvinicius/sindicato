@@ -46,11 +46,31 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
         <ul class="nav navbar-nav">
-          <li><a href="#intro">INÍCIO</a></li>
-          <li><a href="#about">SOBRE</a></li>
-          <li><a href="#service">PARCEIROS</a></li>
-          <li><a href="#contact">CONTATO</a></li>
-          <li><a href="#">MAIS</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">INSTITUCIONAL <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">HISTÓRIA</a></li>
+              <li><a href="#">DIRETORIA</a></li>
+              <li><a href="#">ESTATUTO</a></li>
+              <li><a href="#">TRANSPARÊNCIA</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">COMUNICAÇÃO <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">NOTÍCIAS</a></li>
+              <li><a href="#">PLANTÕES</a></li>
+              <li><a href="#">ASSEMBLÉIAS</a></li>
+              <li><a href="#">FALE CONOSCO</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">MÍDIA <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">CONVÊNIOS</a></li>
+              <li><a href="#">GALERIA</a></li>
+            </ul>
+          </li>
           <li><a href="#">FILIE-SE</a></li>
           <li><a href="#">ENTRAR</a></li>
         </ul>

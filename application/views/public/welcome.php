@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>SINDOJUS | Sindicato dos Oficiais de Justiça do Estado do Acre</title>
+  <title>SINDOJUS | Sindicato dos Oficiais de Justiça do Acre</title>
 
   <!-- Bootstrap Core CSS -->
   <link href="<?= base_url('assets/css/bootstrap.min.css')?>" rel="stylesheet" type="text/css">
@@ -35,10 +35,10 @@
 
     <div class="slogan">
       <h2 style="text-shadow: 0px 0px 6px #FFF;">SIND<font color="#8B0000">OJ</font>US</h2>
-      <h4>SINDICATO DOS OFICIAIS DE JUSTIÇA DO ESTADO ACRE</h4>
+      <h4>SINDICATO DOS OFICIAIS DE JUSTIÇA DO ACRE</h4>
     </div>
     <div class="page-scroll">
-        <a href="<?= base_url(); ?>" class="btn btn-circle" title="Veja mais">
+        <a href="<?= base_url('site')?>" class="btn btn-circle" title="Veja mais">
                 <i class="fa fa-plus animated"></i>
         </a>
     </div>
